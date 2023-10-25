@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  max-width: 1440px;
+  font-family: "Rubik", sans-serif;
+}
+
+body header {
+  padding: 44px 104px;
+}
+body header .container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: space-between;
+}
+body header .container .logo img {
+  max-width: 161px;
+  cursor: pointer;
+}
+body header .container .category {
+  max-width: 102px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 200% */
+}
+body header .container .category a {
+  font-weight: 600;
+}
+body header .container .h1 {
+  max-width: 158px;
+  color: #1c3554;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  margin: 0;
+  cursor: pointer;
+}
+body header .container .signup {
+  max-width: 129px;
+  max-height: 48px;
+  display: inline-flex;
+  padding: 8px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: #f72585;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 200% */
+}
+body header .container .signup:hover {
+  background-color: white;
+  border: 1px solid #f72585;
+  color: #1c3554;
+}
+body .shc1 {
+  padding: 150px 165px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./1698264995581.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .shc1 h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: white;
+}
+body .shc1 p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
+body .shc1 form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body .shc1 form button {
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+body .shc1 form .explore {
+  background-color: black;
+  border: 1px solid black;
+}
+body .shc1 form .explore:hover {
+  background: none;
+  border: 1px solid white;
+}
+body .shc1 form .jionn {
+  background: none;
+  border: 1px solid white;
+}
+body .shc1 form .jionn:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+body .shc4 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  padding: 80px 120px;
+}
+body .shc4 .left h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: black;
+}
+body .shc4 .right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .shc4 .right p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+body .shc4 .right form {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+body .shc4 .right form button {
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+body .shc4 .right form button:hover {
+  background-color: black;
+  color: white;
+}
+body .shc4 .right form input {
+  padding: 10px 50px 10px 20px;
+  border: 1px solid rgb(0, 0, 0);
+}
+body .shc2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  justify-content: center;
+  padding: 80px 120px;
+}
+body .shc2 .stars {
+  color: gold;
+}
+body .shc2 p {
+  font-size: 22px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+body .shc3 {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+body .shc3 h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  color: rgb(0, 0, 70);
+  margin-bottom: 20px;
+}
+body footer {
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+body footer img {
+  max-width: 161px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+body footer .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+body footer .links a {
+  margin: 0;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+}
+body footer .links h1 {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 600;
+}
+body footer hr {
+  height: 2px;
+}
+body footer .bottom {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+}
+body footer .bottom .left p {
+  margin: 0;
+  font-weight: 600;
+}
+body footer .bottom .right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-weight: 600;
+}
+body footer .bottom .right a {
+  color: black;
+  text-decoration: underline;
+}
+body .audio {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+body .audio audio {
+  filter: blur(1px);
+  color: #1c3554;
+}
+
+body header .container .category a {
+  font-size: 16px;
+}
+
+@media (max-width: 1250px) {
+  body header .container .category {
+    display: none;
+  }
+  body header .container .h1 {
+    display: none;
+  }
+}
+@media (max-width: 640px) {
+  body header {
+    padding: 22px 30px;
+  }
+}
+@media (max-width: 800px) {
+  body footer br {
+    display: none;
+  }
+  body footer .bottom {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  max-width: 1440px;
+  // min-width: 1440px;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  header {
+    padding: 44px 104px;
+    .container {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      justify-content: space-between;
+      .logo {
+        img {
+          max-width: 161px;
+          // max-height: 32px;
+          cursor: pointer;
+        }
+      }
+      .category {
+        max-width: 102px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px; /* 200% */
+        a {
+          font-weight: 600;
+        }
+      }
+      .h1 {
+        max-width: 158px;
+        color: #1c3554;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 200% */
+        margin: 0;
+        cursor: pointer;
+      }
+      .signup {
+        max-width: 129px;
+        max-height: 48px;
+        display: inline-flex;
+        padding: 8px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border: 1px solid white;
+        border-radius: 8px;
+        background: #f72585;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px; /* 200% */
+      }
+      .signup:hover {
+        background-color: white;
+        border: 1px solid #f72585;
+        color: #1c3554;
+      }
+    }
+  }
+  .shc1 {
+    padding: 150px 165px;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(./1698264995581.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+      font-family: "Rubik", sans-serif;
+      font-weight: 600;
+      font-size: 36px;
+      color: white;
+    }
+    p {
+      font-family: "Rubik", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    form {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      button {
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-family: "Rubik", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+      }
+      .explore {
+        background-color: black;
+        border: 1px solid black;
+      }
+      .explore:hover {
+        background: none;
+        border: 1px solid white;
+      }
+      .jionn {
+        background: none;
+        border: 1px solid white;
+      }
+      .jionn:hover {
+        background-color: black;
+        border: 1px solid black;
+      }
+    }
+  }
+  .shc4 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 80px 120px;
+    .left {
+      h1 {
+        font-family: "Rubik", sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+        color: black;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      p {
+        font-family: "Rubik", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+      }
+      form {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        button {
+          padding: 10px 20px;
+          background: none;
+          border: 1px solid rgb(0, 0, 0);
+        }
+        button:hover {
+          background-color: black;
+          color: white;
+        }
+        input {
+          padding: 10px 50px 10px 20px;
+          border: 1px solid rgb(0, 0, 0);
+        }
+      }
+    }
+  }
+  .shc2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 80px 120px;
+    .stars {
+      color: gold;
+    }
+    p {
+      font-size: 22px;
+      font-family: "Rubik", sans-serif;
+      font-weight: 600;
+    }
+  }
+  .shc3 {
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1 {
+      font-family: "Rubik", sans-serif;
+      font-weight: 600;
+      font-size: 36px;
+      color: rgb(0, 0, 70);
+      margin-bottom: 20px;
+    }
+  }
+  footer {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    img {
+      max-width: 161px;
+      cursor: pointer;
+      margin: 0 auto;
+    }
+    .links {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      a {
+        margin: 0;
+        font-size: 16px;
+        color: black;
+        font-weight: 600;
+      }
+      h1 {
+        margin: 0px;
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+    hr {
+      height: 2px;
+    }
+    .bottom {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      justify-content: space-between;
+      .left {
+        p {
+          margin: 0;
+          font-weight: 600;
+        }
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-weight: 600;
+        a {
+          color: black;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .audio {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    audio {
+      filter: blur(1px);
+      color: #1c3554;
+      // width: 200px;
+      // height: 25px;
+    }
+  }
+}
+body header .container .category a {
+  font-size: 16px;
+}
+@media (max-width: 1250px) {
+  body header .container {
+    .category {
+      display: none;
+    }
+    .h1 {
+      display: none;
+    }
+  }
+}
+@media (max-width: 640px) {
+  // body .shccontainer footer .bottom {
+  //   display: none;
+  // }
+  // body .shccontainer footer .top .b1 img {
+  //   width: 90%;
+  // }
+  // body .shccontainer footer {
+  //   padding: 40px 51.5px 20px 34px;
+  // }
+  body header {
+    padding: 22px 30px;
+  }
+  // body .shccontainer footer .top {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+}
+@media (max-width: 800px) {
+  body footer {
+    br {
+      display: none;
+    }
+    .bottom {
+      display: none;
+    }
+  }
+}
